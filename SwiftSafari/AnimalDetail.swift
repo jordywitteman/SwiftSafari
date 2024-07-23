@@ -25,6 +25,22 @@ struct AnimalDetail: View {
         }
     }
     
+    var threatenedSymbol: String {
+        if animal.threatened {
+            return "exclamationmark.triangle.fill"
+        } else {
+            return "checkmark.seal.fill"
+        }
+    }
+    
+    var threatenedColor: Color {
+        if animal.threatened {
+            return .red
+        } else {
+            return .green
+        }
+    }
+    
     @State var location = CLLocationCoordinate2D()
     
     @State var position = MapCameraPosition.region(
@@ -35,6 +51,7 @@ struct AnimalDetail: View {
     )
     
     var body: some View {
+        
         VStack(alignment: .leading) {
             
             HStack {
@@ -50,13 +67,6 @@ struct AnimalDetail: View {
                 }
                 
                 Spacer()
-                
-                VStack {
-                    Image(systemName: dietSymbol)
-                        .resizable()
-                        .foregroundStyle(Color.accentColor)
-                        .frame(width: 60, height: 60)
-                }
                 
             }
             
@@ -74,15 +84,50 @@ struct AnimalDetail: View {
                 }
                 .frame(width: 250, height: 250)
                 
-                Text(animal.description)
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("About \(animal.id)")
+                        .font(.title2)
+                        .foregroundStyle(.secondary)
+                    Text(animal.description)
+                    
+                    Spacer()
+                    
+                }
+                .padding()
+                
+                Spacer()
+                
+                Divider()
+                
+                VStack(alignment: .center, spacing: 10) {
+                    
+                    Text("Threatened")
+                        .font(.title2)
+                        .foregroundStyle(.secondary)
+                    
+                    Image(systemName: threatenedSymbol)
+                        .resizable()
+                        .foregroundStyle(threatenedColor)
+                        .frame(width: 60, height: 60)
+                        .animation(.default, value: threatenedColor)
+                        .contentTransition(.symbolEffect(.replace))
+                    
+                    Text("Diet")
+                        .font(.title2)
+                        .foregroundStyle(.secondary)
+                    
+                    Image(systemName: dietSymbol)
+                        .resizable()
+                        .foregroundStyle(Color.accentColor)
+                        .frame(width: 60, height: 60)
+                        .contentTransition(.symbolEffect(.replace))
+                }
+                .padding()
             }
             
             Map(position: $position) {
                 Marker(animal.livingCountry, coordinate: location)
             }
-            .onMapCameraChange(frequency: .continuous) { context in
-                    print(context.region)
-                }
             .clipShape(RoundedRectangle(cornerRadius: 12))
             .padding(.top)
             

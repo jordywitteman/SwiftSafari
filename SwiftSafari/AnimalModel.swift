@@ -14,7 +14,7 @@ struct AnimalModel: Identifiable, Codable {
     let imageUrl: String
     let description: String
     let diet: String
-    let threatenedStatus: Bool
+    let threatened: Bool
     
     enum CodingKeys: String, CodingKey {
         case id = "type"
@@ -22,7 +22,7 @@ struct AnimalModel: Identifiable, Codable {
         case imageUrl = "image_url"
         case description = "description"
         case diet = "diet"
-        case threatenedStatus = "threatened_status"
+        case threatened = "threatened_status"
     }
     
 }
