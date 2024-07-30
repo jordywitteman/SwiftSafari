@@ -17,7 +17,7 @@ struct ContentView: View {
         if searchText.isEmpty {
             return animals
         } else {
-            let filter = animals.filter( { $0.id.localizedCaseInsensitiveContains(searchText) })
+            let filter = animals.filter({ $0.id.localizedCaseInsensitiveContains(searchText) })
             return filter
         }
     }
@@ -57,8 +57,7 @@ struct ContentView: View {
         } detail: {
             Text("Select an animal")
         }
-        .navigationTitle("Animals")
-        .frame(minWidth: 800, minHeight: 400)
+        .frame(minWidth: 1000, minHeight: 600)
         .task {
             await loadAnimals()
         }
