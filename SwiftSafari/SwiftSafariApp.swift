@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Entry point of the app
 @main
 struct SwiftSafariApp: App {
     var body: some Scene {

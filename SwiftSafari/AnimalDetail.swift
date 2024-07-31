@@ -10,8 +10,10 @@ import MapKit
 
 struct AnimalDetail: View {
     
+    // View requires an animal object
     var animal: AnimalModel
     
+    // Return SF Symbol string based on animal diet
     var dietSymbol: String {
         switch animal.diet {
         case "meat":
@@ -25,6 +27,7 @@ struct AnimalDetail: View {
         }
     }
     
+    // Return SF Symbol string based on threatening status
     var threatenedSymbol: String {
         if animal.threatened {
             return "exclamationmark.triangle.fill"
@@ -33,6 +36,7 @@ struct AnimalDetail: View {
         }
     }
     
+    // Return color based on threatening status
     var threatenedColor: Color {
         if animal.threatened {
             return .red
@@ -41,8 +45,10 @@ struct AnimalDetail: View {
         }
     }
     
+    // Variable with a location to show in the map
     @State var location = CLLocationCoordinate2D()
     
+    // Variable with position shown on the map
     @State var position = MapCameraPosition.region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
@@ -50,6 +56,7 @@ struct AnimalDetail: View {
             )
     )
     
+    // The view
     var body: some View {
         
         VStack(alignment: .leading) {
@@ -125,6 +132,7 @@ struct AnimalDetail: View {
                 .padding()
             }
             
+            // Show map
             Map(position: $position) {
                 Marker(animal.livingCountry, coordinate: location)
             }
@@ -148,19 +156,24 @@ struct AnimalDetail: View {
                 location = coordinates
             }
         }
+        // Get coordinates based on animal's living country when view appears
         .task {
             getCoordinate(addressString: animal.livingCountry) { coordinates, error in
+                // Set center position of map to returned coordinates
                 position = MapCameraPosition.region(
                     MKCoordinateRegion(
                         center: coordinates,
                         span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
                     )
                 )
+                // Set location to use as marker on the map
                 location = coordinates
             }
         }
     }
     
+    // MARK: - Function to return coordinates based on a location name
+    // https://developer.apple.com/documentation/corelocation/converting-between-coordinates-and-user-friendly-place-names
     func getCoordinate( addressString : String,
             completionHandler: @escaping(CLLocationCoordinate2D, NSError?) -> Void ) {
         let geocoder = CLGeocoder()

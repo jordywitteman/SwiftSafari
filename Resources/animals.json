@@ -1,0 +1,210 @@
+[
+    {
+        "type": "African Elephant",
+        "living_country": "Botswana",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
+        "description": "African elephants are the largest land animals on Earth, known for their large ears, tusks, and trunks. They live in matriarchal social structures and are highly intelligent, displaying behaviors such as problem-solving and empathy. They communicate through vocalizations and vibrations that can travel long distances. These elephants play a crucial role in their ecosystems, facilitating seed dispersal and creating water holes used by other animals.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Bengal Tiger",
+        "living_country": "India",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bengal_tiger_%28Panthera_tigris_tigris%29_female_2.jpg/1200px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_2.jpg?20200306122037",
+        "description": "The Bengal tiger is a powerful apex predator known for its striking orange coat with black stripes. It inhabits diverse environments, from grasslands to mangrove forests. Bengal tigers are solitary hunters, using stealth and power to ambush prey. They hold cultural significance in India and are symbols of strength. However, habitat loss and poaching have put them at risk, making them an endangered species.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Kangaroo",
+        "living_country": "Australia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kangaroo_Australia_01_11_2008_-_retouch.JPG/1600px-Kangaroo_Australia_01_11_2008_-_retouch.JPG?20090215010405",
+        "description": "Kangaroos are iconic marsupials native to Australia, known for their powerful hind legs and large tails, which they use for hopping and balance. They live in groups called mobs and are social animals. Kangaroos primarily feed on grasses and are adapted to arid environments. They are culturally significant in Australia and often featured in local folklore.",
+        "diet": "vegetables",
+        "threatened_status": false
+    },
+    {
+        "type": "Bald Eagle",
+        "living_country": "United States",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bald_Eagle_Head_sq.jpg/1200px-Bald_Eagle_Head_sq.jpg?20160922133652",
+        "description": "The bald eagle is a bird of prey known for its striking white head and tail with a contrasting dark brown body. As the national bird of the United States, it is a symbol of freedom and strength. Bald eagles have a strong presence near bodies of water, where they hunt fish, their primary food source. Conservation efforts have helped their populations recover from previous declines due to pesticides.",
+        "diet": "fish",
+        "threatened_status": false
+    },
+    {
+        "type": "Giant Panda",
+        "living_country": "China",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
+        "description": "Giant pandas are beloved bears known for their distinctive black-and-white markings and gentle nature. Native to China's bamboo forests, they have a specialized diet consisting primarily of bamboo. Pandas are solitary creatures with strong climbing abilities. Their unique diet and habitat have made them vulnerable to environmental changes, but conservation programs have helped improve their survival prospects.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Polar Bear",
+        "living_country": "Canada",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Female_polar_bear_%28Ursus_maritimus%29_with_cub%2C_Svalbard.jpg/1600px-Female_polar_bear_%28Ursus_maritimus%29_with_cub%2C_Svalbard.jpg?20160919214007",
+        "description": "Polar bears are apex predators of the Arctic, known for their powerful build and thick white fur, which camouflages them in ice and snow. They primarily hunt seals and are strong swimmers, capable of covering long distances in search of food. Climate change and melting ice habitats pose significant threats to their survival, making conservation efforts critical.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Komodo Dragon",
+        "living_country": "Indonesia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Komodo_dragon_%28Varanus_komodoensis%29_2.jpg/1600px-Komodo_dragon_%28Varanus_komodoensis%29_2.jpg?20210529211142",
+        "description": "Komodo dragons are the largest lizards in the world, found on a few Indonesian islands. They are known for their powerful bodies, sharp claws, and long tails. As apex predators, Komodo dragons hunt large prey, using their venomous bite to subdue victims. Their unique biology and isolated habitat make them fascinating subjects of study.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Red Kangaroo",
+        "living_country": "Australia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_Kangaroos_at_Sturt_National_Park_NSW.jpg/1599px-Red_Kangaroos_at_Sturt_National_Park_NSW.jpg?20220629060516",
+        "description": "Red kangaroos are the largest marsupials, recognized for their reddish-brown fur and ability to cover vast distances with powerful jumps. They thrive in Australia's arid regions, feeding on grasses and shrubs. Red kangaroos are social animals, forming groups known as mobs. They have adapted to survive harsh climates with minimal water.",
+        "diet": "vegetables",
+        "threatened_status": false
+    },
+    {
+        "type": "Arctic Fox",
+        "living_country": "Iceland",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Iceland-1979445_%28cropped_3%29.jpg/970px-Iceland-1979445_%28cropped_3%29.jpg?20180310141213",
+        "description": "The Arctic fox is a small mammal adapted to the extreme cold of the Arctic tundra. It has thick, insulating fur that changes color with the seasons, providing camouflage in both snowy and summer environments. Arctic foxes are opportunistic feeders, eating everything from small mammals and birds to carrion and fruits. Their populations fluctuate with prey availability, but they are not currently endangered.",
+        "diet": "meat",
+        "threatened_status": false
+    },
+    {
+        "type": "Hippopotamus",
+        "living_country": "Zambia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hippopotamus_in_the_Zambezi.jpg/1599px-Hippopotamus_in_the_Zambezi.jpg?20180124153825",
+        "description": "Hippopotamuses are large, semi-aquatic mammals native to Africa, known for their massive size and large mouths. They spend much of their time in water to keep cool and are social animals, living in groups called pods. Hippos are herbivorous, grazing on grasses during the night. Despite their docile appearance, they are highly territorial and can be dangerous when provoked.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "African Lion",
+        "living_country": "Kenya",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+        "description": "African lions are iconic predators known for their majestic manes and social structures. They live in prides consisting of related females, their offspring, and a coalition of males. Lions are apex predators, hunting in groups to take down large prey such as zebras and buffalo. Habitat loss and human-wildlife conflict are major threats to their populations.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Emperor Penguin",
+        "living_country": "Antarctica",
+        "image_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/362635561/2400",
+        "description": "Emperor penguins are the largest penguin species, known for their unique breeding cycle during the harsh Antarctic winter. They form large colonies for warmth and rely on thick layers of blubber and feathers for insulation. Emperor penguins primarily feed on fish and squid, diving to great depths in search of food. Climate change and melting ice threaten their habitats and food sources.",
+        "diet": "fish",
+        "threatened_status": true
+    },
+    {
+        "type": "Great White Shark",
+        "living_country": "South Africa",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Great_White_Shark_%2814730796397%29.jpg/1600px-Great_White_Shark_%2814730796397%29.jpg?20150530020319",
+        "description": "Great white sharks are one of the most feared and misunderstood predators of the ocean, known for their size, power, and sharp teeth. They have a keen sense of smell and excellent vision, allowing them to detect prey from miles away. Great whites are found in coastal waters worldwide and are apex predators, feeding on seals, fish, and even whales. Overfishing and habitat loss are concerns for their conservation.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Grizzly Bear",
+        "living_country": "United States",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Grizzly_Bear_%28Ursus_arctos_ssp.%29.jpg/1599px-Grizzly_Bear_%28Ursus_arctos_ssp.%29.jpg?20150711143904",
+        "description": "Grizzly bears are powerful, large mammals native to North America, known for their thick fur and strong build. They are omnivores, eating everything from berries and roots to salmon and small mammals. Grizzlies are solitary animals, except during mating season or when mothers raise their cubs. Habitat loss and human encounters pose significant threats to their populations.",
+        "diet": "meat",
+        "threatened_status": false
+    },
+    {
+        "type": "Jaguar",
+        "living_country": "Brazil",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jaguar_%28Panthera_onca_palustris%29_female_Piquiri_River_2.JPG/1599px-Jaguar_%28Panthera_onca_palustris%29_female_Piquiri_River_2.JPG?20220505004214",
+        "description": "The Jaguar is a large cat native to the Americas, known for its powerful build and distinctive rosette-patterned coat. It is an apex predator in its rainforest habitat.",
+        "diet": "meat",
+        "threatened_status": true
+      },
+      {
+        "type": "Koala",
+        "living_country": "Australia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Koala_in_Zoo_Duisburg.jpg/1599px-Koala_in_Zoo_Duisburg.jpg?20190831050912",
+        "description": "The Koala is a marsupial that lives in eucalyptus forests of Australia. It is known for its bear-like appearance, large ears, and a diet consisting almost exclusively of eucalyptus leaves.",
+        "diet": "vegetables",
+        "threatened_status": true
+      },
+      {
+        "type": "Siberian Tiger",
+        "living_country": "Russia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Siberischer_tiger_de_edit02.jpg?20060813004548",
+        "description": "The Siberian Tiger is the largest tiger subspecies and is adapted to the cold climates of eastern Russia and parts of China. It is known for its thick fur and powerful build.",
+        "diet": "meat",
+        "threatened_status": true
+      },
+    {
+        "type": "Giraffe",
+        "living_country": "Tanzania",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Giraffe08_-_melbourne_zoo.jpg?20061121224609",
+        "description": "Giraffes are the tallest land animals, easily recognized by their long necks, legs, and distinctive coat patterns. They inhabit savannas and woodlands in Africa, where they browse on leaves high in trees. Giraffes have unique cardiovascular adaptations to manage blood flow to their long necks. Poaching and habitat destruction are significant threats to their survival.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Blue Whale",
+        "living_country": "International Waters",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Blue_Whale_%28Balaenoptera_musculus%29_%2816108163937%29.jpg/1600px-Blue_Whale_%28Balaenoptera_musculus%29_%2816108163937%29.jpg?20150529230152",
+        "description": "Blue whales are the largest animals on Earth, known for their immense size and distinctive blue-gray coloration. They inhabit oceans worldwide, migrating seasonally in search of food. Blue whales feed primarily on tiny shrimp-like animals called krill, consuming vast quantities daily. Despite their size, blue whales were hunted to near extinction, and conservation efforts continue to protect their recovering populations.",
+        "diet": "fish",
+        "threatened_status": true
+    },
+    {
+        "type": "Meerkat",
+        "living_country": "South Africa",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Suricata_suricatta_qtl5.jpg/1599px-Suricata_suricatta_qtl5.jpg?20110824051001",
+        "description": "Meerkats are small, social mammals that live in complex burrow systems in southern Africa. Known for their upright stance, they stand on their hind legs to survey their surroundings for predators. Meerkats live in groups called mobs or clans and work together to forage and care for their young. They are omnivorous, feeding on insects, small vertebrates, and plants.",
+        "diet": "meat",
+        "threatened_status": false
+    },
+    {
+        "type": "Orangutan",
+        "living_country": "Indonesia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG/640px-Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG",
+        "description": "Orangutans are highly intelligent great apes native to the rainforests of Borneo and Sumatra. They are known for their reddish-brown fur and long arms, which they use to swing through trees. Orangutans are primarily solitary and spend much of their time foraging for fruits and vegetation. Deforestation and illegal wildlife trade have severely threatened their populations.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Cheetah",
+        "living_country": "Namibia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cheetah4.jpg?20060405123629",
+        "description": "Cheetahs are the fastest land animals, capable of reaching speeds up to 70 mph (112 km/h). They are built for speed with slim bodies, long legs, and a distinctive black tear stripe running from the eyes to the mouth. Cheetahs hunt by sight, using their speed and agility to chase down prey in open savannas. Habitat loss and human-wildlife conflict threaten their survival.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Snow Leopard",
+        "living_country": "Nepal",
+        "image_url": "https://wallpapercave.com/dwp2x/wp2320047.jpg",
+        "description": "Snow leopards are elusive big cats adapted to life in the rugged mountains of Central Asia. They are known for their thick fur and long, bushy tails, which help them survive cold temperatures. Snow leopards are solitary predators, hunting mountain sheep and goats. Poaching and habitat loss threaten their populations, making them vulnerable to extinction.",
+        "diet": "meat",
+        "threatened_status": true
+    },
+    {
+        "type": "Sea Turtle",
+        "living_country": "Costa Rica",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Total_internal_reflection_of_Chelonia_mydas.jpg/1600px-Total_internal_reflection_of_Chelonia_mydas.jpg?20080524164712",
+        "description": "Sea turtles are ancient marine reptiles that have existed for millions of years. They inhabit oceans worldwide, with females returning to their birthplace beaches to lay eggs. Sea turtles have adapted to marine life with streamlined shells and flipper-like limbs. They face numerous threats, including habitat destruction, pollution, and bycatch in fishing gear.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Rhinoceros",
+        "living_country": "South Africa",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Indian_rhinoceros_%28Rhinoceros_unicornis%29_6.jpg/1599px-Indian_rhinoceros_%28Rhinoceros_unicornis%29_6.jpg?20210627143925",
+        "description": "Rhinoceroses are large, herbivorous mammals known for their thick skin and prominent horns. They inhabit grasslands and savannas in Africa and Asia. Rhinos are solitary creatures with poor eyesight but excellent hearing and smell. Poaching for their horns and habitat loss have driven many rhino species to the brink of extinction.",
+        "diet": "vegetables",
+        "threatened_status": true
+    },
+    {
+        "type": "Dolphin",
+        "living_country": "Australia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Eilat_Dolphin_Reef_%283%29.jpg/1599px-Eilat_Dolphin_Reef_%283%29.jpg?20180916142225",
+        "description": "Dolphins are highly intelligent marine mammals known for their playful behavior and complex communication. They live in social groups called pods and are found in oceans worldwide. Dolphins use echolocation to navigate and hunt fish, squid, and other marine life. Human activities, including pollution and fishing nets, pose threats to their populations.",
+        "diet": "fish",
+        "threatened_status": false
+    }
+]
