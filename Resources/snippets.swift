@@ -64,13 +64,23 @@ func getCoordinate( addressString : String,
 //////////////////////////////// SNIPPET 4 /////////////////////////////////////
 
 getCoordinate(addressString: animal.livingCountry) { coordinates, error in
-    // Set center position of map to returned coordinates
-    position = MapCameraPosition.region(
-        MKCoordinateRegion(
-            center: coordinates,
-            span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
+    withAnimation {
+        position = MapCameraPosition.region(
+            MKCoordinateRegion(
+                center: coordinates,
+                span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
+            )
         )
-    )
-    // Set location to use as marker on the map
+    }
     location = coordinates
 }
+
+//////////////////////////////// SNIPPET 5 /////////////////////////////////////
+
+// Variable with position shown on the map
+@State var position = MapCameraPosition.region(
+    MKCoordinateRegion(
+        center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
+        span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
+        )
+)
